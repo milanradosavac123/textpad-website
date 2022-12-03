@@ -6,6 +6,7 @@ body {
     background-color: rgb(3, 168, 245);
     text-align: center;
     margin-top: 15%;
+    /*-webkit-text-fill-color: beige;*/
 }
 
 #root-div {
@@ -21,4 +22,35 @@ button {
     padding-top: 5px;
     padding-bottom: 5px;
     margin: 5px;
+    -webkit-text-fill-color: black;
+}
+
+.command {
+    border-radius: 15px;
+}
+
+p {
+    text-align: left;
+}
+
+pre, code {
+    box-shadow: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.link-button {
+    background-color: crimson;
+    border-style: hidden;
+    font-size: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+    -webkit-text-fill-color: black;
+}
+
+#linux-os-page {
+    overflow-x: auto;
 }
