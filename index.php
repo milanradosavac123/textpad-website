@@ -13,9 +13,9 @@
         <p>Izaberite na koju platformu želite instalirati server softver:</p>
         <p id="screen-size"></p>
         <div>
-            <a href="linux-os.php"><button>Linux-os</button></a>
-            <a href="mac-os-x.php"><button>Mac OS X</button></a>
-            <a href="windows.php"><button>Windows</button></a>
+            <a href="linux-os.html"><button>Linux-os</button></a>
+            <a href="mac-os-x.html"><button>Mac OS X</button></a>
+            <a href="windows.html"><button>Windows</button></a>
         </div>
     </div>
 </body>
