@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/styles/styles.css">
     <title>Textpad: Linux-os</title>
 </head>
-<body>
+<body id="linux-os-body">
     <script src="scripts/prism.js"></script>
     <div id="linux-os-page">
         <h3>Korak 1: Instalacija Docker-a</h3>
@@ -31,7 +31,6 @@ Wants = network-online.target
 Requires = dbus.service docker.service
 
 [Service]
-
 ExecStart = docker compose up
 Restart = on-abort
 StartLimitInterval = 60
@@ -39,12 +38,15 @@ StartLimitBurst = 10
 
 [Install]
 WantedBy = multi-user.target</code></pre>
-    <h4>Korak C: Pokrenite i installirajte servis <b>textpad-sync-server:</b></h4>
-    <pre class="command"><span># </span><code class="language-bash">systemctl start textpad-sync-server</code></pre>
-    <pre class="command"><span># </span><code class="language-bash">systemctl enable textpad-sync-server</code></pre>
-    <h4>Korak D: Kopirajte docker-compose.yml na pravu lokaciju</h4>
-    <p>$HOME/Downloads/docker-compose.yml zamjenite sa vasom lokaciom preuzetog fajla</p>
-    <pre class="command"><span># </span><code class="language-bash">cp -r $HOME/Downloads/docker-compose.yml .</code></pre>
+        <h4>Korak C: Installirajte servis <b>textpad-sync-server:</b></h4>
+        <pre class="command"><span># </span><code class="language-bash">systemctl enable textpad-sync-server</code></pre>
+        <h4>Korak D: Kopirajte docker-compose.yml na pravu lokaciju</h4>
+        <p>$HOME/Downloads/docker-compose.yml zamjenite sa vasom lokaciom preuzetog fajla</p>
+        <pre class="command"><span># </span><code class="language-bash">cp -r $HOME/Downloads/docker-compose.yml .</code></pre>
+        <h4>Korak E: Pokrenite servis <b>textpad-sync-server:</b></h4>
+        <pre class="command"><span># </span><code class="language-bash">systemctl start textpad-sync-server</code></pre>
+        <h3>Korak 5:</h3>
+        <a href="in-app-config.php"><button class="link-button">Konfiguracija u aplikaciji</button></a>
     </div>
 </body>
 </html>

@@ -34,7 +34,6 @@ p {
 }
 
 pre, code {
-    box-shadow: 10px;
     white-space: pre-wrap;
     word-wrap: break-word;
 }
@@ -53,4 +52,8 @@ pre, code {
 
 #linux-os-page {
     overflow-x: auto;
+}
+
+#linux-os-body {
+    margin-top: 5px;
 }
