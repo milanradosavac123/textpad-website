@@ -46,7 +46,7 @@ WantedBy = multi-user.target</code></pre>
         <h4>Korak E: Pokrenite servis <b>textpad-sync-server:</b></h4>
         <pre class="command"><span># </span><code class="language-bash">systemctl start textpad-sync-server</code></pre>
         <h3>Korak 5:</h3>
-        <a href="in-app-config.php"><button class="link-button">Konfiguracija u aplikaciji</button></a>
+        <a href="in-app-config.html"><button class="link-button">Konfiguracija u aplikaciji</button></a>
     </div>
 </body>
 </html>
