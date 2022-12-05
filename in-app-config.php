@@ -13,7 +13,7 @@
         <h3>Korak 1: <i>Nadjite ponovo ekran za onlajn sinhronizaciju</i></h3>
         <h3>Korak 2: <i>Prikazite dijalog za dodavanje servera</i></h3>
         <p>klik na dugme ispod teksta vam ostvaruje zeljeni rezultat</p>
-        <img src="button.png" alt="slika ekrana za dodavanje servera">
+        <img src="button.png" alt="slika ekrana za dodavanje servera" width=400>
         <h3>Korak 3: <i>Odredite link za server</i></h3>
         <p>
             Ako vam je server licni laptop/desktop racunar, link vam je<br><b>http://"ip adresa laptopa/desktop racunara(bez navodnika)":8080/</b>,<br>
