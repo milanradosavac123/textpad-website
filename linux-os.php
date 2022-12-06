@@ -12,7 +12,7 @@
     <script src="scripts/prism.js"></script>
     <div id="linux-os-page">
         <h3>Korak 1: Instalacija Docker-a</h3>
-        <p>Idite na stranicu <a href="https://www.docker.com">www.docker.com</a>, i pratite instrukcije<br>za instalaciju linux-os verzije Docker-a,<br>ne zaboravite takođe pokupiti i docker compose</p>
+        <p>Idite na stranicu <a href="https://docs.docker.com/desktop/install/linux-install/">docker.com</a>, i pratite instrukcije<br>za instalaciju linux-os verzije Docker-a,<br>ne zaboravite takođe pokupiti i docker compose</p>
         <h3>Korak 2: Testiranje instalacije</h3>
         <pre class="command"><span>$ </span><code class="language-bash">docker run -d hello-world</code></pre>
         <p>Ako dobijete ispisan id container-a, znači da ste uradili dobar posao,<br> ako dobijete neku grešku, pokušajte prethodnu komandu pokrenuti sa sudo</p>
