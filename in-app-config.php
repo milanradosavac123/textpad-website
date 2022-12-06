@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/styles/styles.css">
     <title>Textpad: Mac OS X</title>
 </head>
-<body>
+<body id="linux-os-body">
     <div id="linux-os-page">
         <p>Idite nazad u vašu aplikaciju na vašem telefonu, pa pratite slijedeće korake da dodate server:</p>
         <h3>Korak 1: <i>Nađite ponovo ekran za onlajn sinhronizaciju</i></h3>
