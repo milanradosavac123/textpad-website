@@ -9,21 +9,21 @@
 </head>
 <body>
     <div id="linux-os-page">
-        <p>Idite nazad u vasu aplikaciju na vasem telefonu, pa pratite slijedece korake da dodate server:</p>
-        <h3>Korak 1: <i>Nadjite ponovo ekran za onlajn sinhronizaciju</i></h3>
-        <h3>Korak 2: <i>Prikazite dijalog za dodavanje servera</i></h3>
-        <p>klik na dugme ispod teksta vam ostvaruje zeljeni rezultat</p>
+        <p>Idite nazad u vašu aplikaciju na vašem telefonu, pa pratite slijedeće korake da dodate server:</p>
+        <h3>Korak 1: <i>Nađite ponovo ekran za onlajn sinhronizaciju</i></h3>
+        <h3>Korak 2: <i>Prikažite dijalog za dodavanje servera</i></h3>
+        <p>klik na dugme ispod teksta vam ostvaruje željeni rezultat</p>
         <img src="button.png" alt="slika ekrana za dodavanje servera" width=400>
         <h3>Korak 3: <i>Odredite link za server</i></h3>
         <p>
-            Ako vam je server licni laptop/desktop racunar, link vam je<br><b>http://"ip adresa laptopa/desktop racunara(bez navodnika)":8080/</b>,<br>
-            u slucaju da posjedujete hostname za vas laptop/desktop racunar, link vam je <b>http://hostname:8080/</b>.<br> Za one koji koriste VPS servere,
-            ip adresu laptopa/desktop racunara zamjenite sa ip adresom VPS servera.<br>Da bi koristili domainn VPS servera kao link,<br>ne zaboravite u konfiguracionom panelu dodati port 8080
-            nakon ip adrese prema kojoj domain salje saobracaj.
+            Ako vam je server lični laptop/desktop računar, link vam je<br><b>http://"ip adresa laptopa/desktop računara(bez navodnika)":8080/</b>,<br>
+            u slučaju da posjedujete hostname za vaš laptop/desktop računar, link vam je <b>http://hostname:8080/</b>.<br> Za one koji koriste VPS servere,
+            ip adresu laptopa/desktop računara zamjenite sa ip adresom VPS servera.<br>Da bi koristili domain VPS servera kao link,<br>ne zaboravite u konfiguracionom panelu dodati port 8080
+            nakon ip adrese prema kojoj domain šalje saobraćaj.
         </p>
         <h3>Korak 4: <i>Konfiguracija porta(samo za VPS server korisnike)</i></h3>
-        <p>U podesavanjima za VPS server nadjite firewall podesavanja,<br>i uvjerite se da firewall dopusta saobracaj preko porta 8080</p>
-        <h3>Korak 5: <i>Upisite prethodno odredjeni link u dialog i potvrdite unos</i></h3>
+        <p>U podešavanjima za VPS server nađite firewall podešavanja,<br>i uvjerite se da firewall dopušta saobracaj preko porta 8080</p>
+        <h3>Korak 5: <i>Upišite prethodno određeni link u dialog i potvrdite unos</i></h3>
     </div>
 </body>
 </html>
