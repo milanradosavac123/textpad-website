@@ -25,7 +25,7 @@
         <h4>Korak B: Napišite systemd unit fajl</h4>
         <p>Kreirajte fajl po imenu <b>textpad-sync-server.service</b><br>na lokaciji <b><i>/etc/systemd/system/</i></b> u vašem omiljenom tekstualnom editoru,<br>sa slijedećim sadržajem:</p>
         <pre class="command" ><code class="language-systemd">[Unit]
-Description = Textpad Sinhronizacioni server daemon
+Description = TextPad Sinhronizacioni server daemon
 After = network.target network-online.target dbus.service docker.service
 Wants = network-online.target
 Requires = dbus.service docker.service
