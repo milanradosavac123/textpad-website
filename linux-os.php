@@ -15,15 +15,15 @@
         <p>Idite na stranicu <a href="https://www.docker.com">www.docker.com</a>, i pratite instrukcije<br>za instalaciju linux-os verzije Docker-a,<br>ne zaboravite takođe pokupiti i docker compose</p>
         <h3>Korak 2: Testiranje instalacije</h3>
         <pre class="command"><span>$ </span><code class="language-bash">docker run -d hello-world</code></pre>
-        <p>Ako dobijete ispisan id container-a, znaci da ste uradili dobar posao,<br> ako dobijete neku grešku, pokusajte prethodnu komandu pokrenuti sa sudo</p>
+        <p>Ako dobijete ispisan id container-a, znači da ste uradili dobar posao,<br> ako dobijete neku grešku, pokušajte prethodnu komandu pokrenuti sa sudo</p>
         <pre class="command"><span>$ </span><code class="language-bash">sudo docker run -d hello-world</code></pre>
-        <p>Sad bi trebalo da sve funkcioniše kako treba</p>
+        <p>Sada bi trebalo da sve funkcioniše kako treba</p>
         <h3>Korak 4: Konfiguracija systemd servisa</h3>
         <p>Konfiguracija systemd servisa je sastavljena od više podkoraka:</p>
         <h4>Korak A:</h4> 
         <a href="/files/docker-compose.yml" download><button class="link-button">Preuzmite docker-compose.yml</button></a>
         <h4>Korak B: Napišite systemd unit fajl</h4>
-        <p>Kreirajte fajl po imenu <b>textpad-sync-server.service</b><br>na lokaciji <b><i>/etc/systemd/system/</i></b> u vašem omiljenom tekstualnom editoru,<br>sa slijedecim sadržajem:</p>
+        <p>Kreirajte fajl po imenu <b>textpad-sync-server.service</b><br>na lokaciji <b><i>/etc/systemd/system/</i></b> u vašem omiljenom tekstualnom editoru,<br>sa slijedećim sadržajem:</p>
         <pre class="command" ><code class="language-systemd">[Unit]
 Description = Textpad Sinhronizacioni server daemon
 After = network.target network-online.target dbus.service docker.service
