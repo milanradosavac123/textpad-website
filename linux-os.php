@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/prism.css">
     <link rel="stylesheet" href="/styles/styles.css">
-    <title>Textpad: Linux-os</title>
+    <title>TextPad: Linux-os</title>
 </head>
 <body id="linux-os-body">
     <script src="scripts/prism.js"></script>
