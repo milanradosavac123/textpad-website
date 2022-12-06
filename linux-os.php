@@ -38,7 +38,7 @@ StartLimitBurst = 10
 
 [Install]
 WantedBy = multi-user.target</code></pre>
-        <h4>Korak C: Installirajte servis <b>textpad-sync-server:</b></h4>
+        <h4>Korak C: Instalirajte servis <b>textpad-sync-server:</b></h4>
         <pre class="command"><span># </span><code class="language-bash">systemctl enable textpad-sync-server</code></pre>
         <h4>Korak D: Kopirajte docker-compose.yml na pravu lokaciju</h4>
         <p>$HOME/Downloads/docker-compose.yml zamjenite sa vašom lokaciom preuzetog fajla</p>
