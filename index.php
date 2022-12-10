@@ -14,8 +14,10 @@
         <p id="screen-size"></p>
         <div>
             <a href="linux-os.html"><button>Linux-os</button></a>
-            <a href="mac-os-x.html"><button>Mac OS X</button></a>
+            <a href="disabled"><button disabled=true>Mac OS X</button></a>
             <a href="windows.html"><button>Windows</button></a>
+        </div>
+        <div>
         </div>
     </div>
 </body>
